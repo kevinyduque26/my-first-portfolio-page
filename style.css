@@ -1,0 +1,125 @@
+/* Lato font from Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+/* Box-sizing */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* CSS rules */
+
+header {
+  padding: 50px 0px 100px 0px;
+  background: #CCC5B9;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-weight: 400; 
+  font-size: 30px;
+  padding: 40px 0px 40px 0px;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400; 
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+}
+
+ol {
+  padding-bottom: 40px;
+}
+
+hr {
+  margin: 0;
+}
+
+footer {
+  background: #252422;
+  padding: 10px 0px 10px 0px;
+}
+
+
+/* Grouped CSS rules */
+
+p, ol {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h1, h2 , p, ol {
+  font-family: "Lato", sans-serif;
+  color: #252422;
+}
+
+
+/* Pseudo-classes */
+
+a:link    { color: #1D1F35;  }
+a:visited { color: #EB5E28   }
+a:hover   { color: #CCC5B9 }
+a:active  { color: #403D39 }
+
+
+/* Nested CSS rules */
+
+#introduction > p {
+  padding-bottom: 40px;
+}
+
+header > img {
+  width: 500px;
+  padding-bottom: 40px;
+  margin: auto;
+  display: block;
+}
+
+article > a {
+  width: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: auto;
+  display: block; /* Needed so margin works to center image*/
+}
+
+article > a > img {
+  height: 80px;
+  padding-bottom: 10px;
+  margin: auto;
+  display: block; /* Needed so margin works to center image*/
+}
+
+
+/* CSS classes */
+
+.wrapper {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper-body {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.hr-body {
+  margin: auto;
+  width: 600px;
+}
+
+
