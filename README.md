@@ -9,4 +9,4 @@ This project is an assignment for my Software Engineering bootcamp with Thinkful
 
 I appreciate any feedback and come back to check out my new projects - as they are created! :)
 
-YOu can check out the page here: https://kevinyduque26.github.io/my-first-portfolio-page/
+You can check out the page here: https://kevinyduque26.github.io/my-first-portfolio-page/
