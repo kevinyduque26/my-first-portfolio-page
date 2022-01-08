@@ -39,7 +39,7 @@ h3 {
   padding: 10px 0px 10px 0px;
 }
 
-ol {
+ol, ul {
   padding-bottom: 40px;
 }
 
@@ -55,12 +55,12 @@ footer {
 
 /* Grouped CSS rules */
 
-p, ol {
+p, ol, ul {
   font-weight: 300;
   font-size: 16px;
 }
 
-h1, h2 , p, ol {
+h1, h2 , p, ol, ul {
   font-family: "Lato", sans-serif;
   color: #252422;
 }
@@ -75,10 +75,6 @@ a:active  { color: #403D39 }
 
 
 /* Nested CSS rules */
-
-#introduction > p {
-  padding-bottom: 40px;
-}
 
 header > img {
   width: 500px;
